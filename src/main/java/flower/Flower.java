@@ -1,3 +1,5 @@
+package flower;
+
 public class Flower {
     private int price;
     private FlowerColor color;
