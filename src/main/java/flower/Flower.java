@@ -8,16 +8,16 @@ public class Flower {
         return price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setPrice(int value) {
+        this.price = value;
     }
 
     public String getColor() {
         return color.toString();
     }
 
-    public void setColor(FlowerColor color) {
-        this.color = color;
+    public void setColor(FlowerColor colour) {
+        this.color = colour;
     }
 
     public enum FlowerColor {
