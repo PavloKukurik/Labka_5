@@ -22,5 +22,3 @@ public class FlowerBucket {
         return total;
     }
 }
-
-record FlowerPack(Flower flower, int quantity) {}
