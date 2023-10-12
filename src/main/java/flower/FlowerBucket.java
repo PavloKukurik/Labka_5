@@ -24,5 +24,3 @@ public class FlowerBucket {
 }
 
 record FlowerPack(Flower flower, int quantity) {}
-
-class Rose extends Flower {}
