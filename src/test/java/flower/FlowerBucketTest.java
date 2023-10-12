@@ -20,20 +20,11 @@ public class FlowerBucketTest {
     }
 
     @Test
-//    public void testPrice() {
-//        int price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
-//        int quantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
-//        Flower flower = new Rose();
-//        flower.setPrice(10);
-//        FlowerPack flowerPack = new FlowerPack(flower, quantity);
-//        flowerBucket.add(flowerPack);
-//        Assertions.assertEquals(price * quantity, flowerBucket.getPrice());
-//    }
     public void testPrice() {
         int price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
         int quantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
-        Flower flower = new Rose();
-        flower.setPrice(price);  // Set the Rose's price to the random price you generated
+        Flower flower = new Flower();
+        flower.setPrice(price);
         FlowerPack flowerPack = new FlowerPack(flower, quantity);
         flowerBucket.add(flowerPack);
         Assertions.assertEquals(price * quantity, flowerBucket.getPrice());
