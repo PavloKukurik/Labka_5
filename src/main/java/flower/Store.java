@@ -1,4 +1,4 @@
-package flower.store;
+package flower;
 import java.util.List;
 import java.util.ArrayList;
 import flower.filters.SearchFilter;
