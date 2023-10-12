@@ -1,4 +1,4 @@
-package flower.store;
+package flower;
 public abstract class Item {
     
 }
